@@ -1,0 +1,180 @@
+.container{
+  background-color: var(--color-blue);
+}
+
+.header {
+  padding: 5rem 0;
+  margin: 0 auto;
+  max-width: 70%;
+  color: #fff;
+  
+  animation: fadeIn 2s forwards;
+}
+
+.header__title {
+  padding-top: 5rem;
+}
+
+.header__location{
+    color: var(--color-grey);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header__title-info{
+  position: relative;
+}
+
+.header__title-info h1::before {
+  content: "<h1>";
+  color: var(--color-yellow);
+  font-size: 1rem;
+  position: absolute;
+  top: -3rem;
+  left: -1rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.header__title-info h1::after {
+  content: "<h1/>";
+  color: var(--color-yellow);
+  font-size: 1rem;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: .8rem;
+  animation: fadeIn 1s 1.7s backwards;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.header__title h1 {
+  font-size: 3.2rem;
+  line-height: 5rem;
+}
+
+.header__btn{
+  padding: 0.8rem 2.5rem;
+  font-size: .9rem;
+  letter-spacing: 2px;
+  margin: 2rem 0;
+  cursor: pointer;
+  color: var(--color-yellow);
+  background-color: transparent;
+  border: 1px solid var(--color-yellow);
+}
+
+.header__btn:hover{
+  background-color: var(--color-yellow);
+  color: #000;
+  transition: all .3s ease;
+}
+
+.top-tags{
+  position: absolute;
+  top: -4rem;
+  left: -4rem;
+  color: var(--color-yellow);
+  font-size: 1rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+@keyframes animateDown {
+  0%, 20%, 50%, 80%, 100%{
+      transform: translateY(0);
+  }
+
+  40%{
+      transform: translateY(5px);
+  }
+
+  60%{
+      transform: translateY(3px);
+  }
+}
+
+
+.header__icon{
+  height: 40px;
+    animation: animateDown infinite 1.5s;
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-yellow);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1020px){
+  .header{
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 895px){
+  .header__title h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 760px){
+  
+  .header__title h1 {
+    font-size: 2.3rem;
+    line-height: 4rem;
+  }
+
+}
+
+@media screen and (max-width: 660px){
+  .header__title h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .top-tags{
+    left: -2rem;
+  }
+
+  .header__title-info h1::after{
+    margin-top: 0.5rem;
+  }
+
+  .header__location{
+    font-size: .8rem;
+  }
+  
+  .header__btn{
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 592px){
+  .header__title h1{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 487px){
+  .header__title h1{
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+
+  .header__btn {
+    padding: 0.7rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 403px){
+  .header{
+    max-width: 100%;
+    margin-left: 2rem;
+  }
+}

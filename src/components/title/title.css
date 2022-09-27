@@ -1,0 +1,37 @@
+.title{
+    flex: 2;
+    position: relative;
+}
+
+.title h1{
+    margin: 2rem 0;
+}
+
+.title h1::before {
+    content: "<h1>";
+    color: var(--color-yellow);
+    font-size: 1rem;
+    position: absolute;
+    top: 0rem;
+    left: -1rem;
+    opacity: 0.6;
+    font-style: italic;
+  }
+  
+  .title h1::after {
+    content: "<h1/>";
+    color: var(--color-yellow);
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: -1rem;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.6;
+    font-style: italic;
+  }
+
+  @media screen and (max-width: 500px){
+    .title h1{
+      font-size: 1.5rem;
+    }
+  }

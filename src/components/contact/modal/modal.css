@@ -1,0 +1,22 @@
+.modal{
+    background-color: rgb(136,116,12);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.modal__content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal__content-icon{
+    background-color: rgb(136,116,12);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.modal__content p{
+    color: white;
+    font-size: .9rem;
+}
