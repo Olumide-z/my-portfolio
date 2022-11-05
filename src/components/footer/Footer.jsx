@@ -20,7 +20,7 @@ const Footer = () => {
                     <a href='https://twitter.com/Who_is_Emrys' target='__blank'><FaTwitter /></a>
                     <a href="https://wa.me/2348140144314" target='__blank'><FaWhatsapp /></a>
                     <a href="https://github.com/Olumide-z" target='__blank'><FaGithub /></a>
-                    <a href="#" target='__blank'><FaLinkedinIn /></a>
+                    <a href="https://linkedin.com/in/olumide-ilesanmi-10026a207" target='__blank'><FaLinkedinIn /></a>
                 </div>
             </div>
         </div>
