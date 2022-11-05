@@ -26,7 +26,7 @@ const NavLinks = () => {
     <a href="#works" className='navbar__link'><p>Works</p></a>
     <a href="#about" className='navbar__link'><p>About</p></a>
     <a href="#contact" className='navbar__link'><p>Contact</p></a>
-    <Link to='/resume' target='_blank' className='navbar__link'><p>Resume</p></Link>
+    <a href='https://drive.google.com/file/d/11DhI6QkG0MO6YmUDkSwV91JSx_wBf8lu/view?usp=sharing' target='_blank' className='navbar__link'><p>Resume</p></a>
   </>
   )
 }

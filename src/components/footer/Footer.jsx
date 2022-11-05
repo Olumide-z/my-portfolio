@@ -14,7 +14,7 @@ const Footer = () => {
                 <ul>
                     <li><a href='mailto:olumideilesanmi10@gmail.com' target='__blank'>olumideilesanmi10@gmail.com</a><span> · Email</span></li>
                     <li><a href='#' target='__blank'>+(234) 814 014 4314</a><span> · Mobile</span></li>
-                    <li><a href='#' target='__blank'>Save a copy of my resume</a></li>
+                    <li><a href='https://drive.google.com/file/d/11DhI6QkG0MO6YmUDkSwV91JSx_wBf8lu/view?usp=sharing' target='__blank'>Save a copy of my resume</a></li>
                 </ul>
                 <div className="footer__content-2--icons">
                     <a href='https://twitter.com/Who_is_Emrys' target='__blank'><FaTwitter /></a>
