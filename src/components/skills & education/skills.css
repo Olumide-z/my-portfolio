@@ -13,24 +13,6 @@
     padding-bottom: 5rem;
 }
 
-.skills__list{
-    flex: 4;
-}
-
-.skills__list ul{
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-}
-
-.skills__list li{
-    margin-right: 1rem;
-    font-weight: 400;
-    font-size: .9rem;
-    list-style-type: square;
-    list-style-position: inside;
-}
-
 .education__list{
     flex: 4;
 }
@@ -62,7 +44,7 @@
 
 @media screen and (max-width: 460px){
     .skills__list li{
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     .education__list p{

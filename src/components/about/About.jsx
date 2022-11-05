@@ -10,8 +10,7 @@ const About = () => {
       <Title title='About Me' />
       <div className="about__me">
         <p>
-          I am a very ambitious front-end developer with some experience
-          building pixel perfect websites and UIs.
+          I am a very ambitious front-end developer with some experience in building pixel perfect websites and UIs.
         </p>
         <p>
           I'm quietly confident, naturally curious, and Focused on helping agile

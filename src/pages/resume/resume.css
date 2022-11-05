@@ -1,0 +1,14 @@
+
+
+.resume button{
+    padding: .6rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    background-color: #413a3a;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    border: none;
+}

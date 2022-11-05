@@ -1,0 +1,183 @@
+.myResume {
+  padding: 5rem;
+  color: #413a3a;
+}
+
+.myResume h3{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.myResume > div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myResume > div:first-child > p{
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.myResume > div:first-child > h1{
+    font-size: 3rem;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+.myResume > div:first-child > h1 > span{
+    font-weight: 300 !important;
+}
+
+.myResume__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5rem;
+    font-size: 1.5rem;
+}
+
+.myResume__info > p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.myResume__profile,
+.myResume__info,
+.myResume__technical,
+.myResume__education,
+.myResume__workExperience,
+.myResume__softSkills {
+  border-bottom: 1px solid lightgrey;
+  padding: 2rem 0;
+}
+
+.myResume__education > div{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.myResume__profile > p{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.university > p, .highSchool > p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.university > p:first-child, .highSchool > p:first-child{
+    font-weight: 500;
+}
+
+.myResume__footer{
+    padding: 2rem 0;
+}
+
+.myResume__footer > p{
+    font-size: 1.5rem;
+}
+
+.myResume__footer > p > span{
+    font-weight: 500;
+}
+
+.myResume__footer .link{
+    text-decoration: none;
+    color: #413a3a;
+}
+
+.softSkills{
+    display: flex;
+    gap: 10rem;
+}
+
+.softSkills div > p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (max-width: 1122px){
+    .myResume__education > div, .softSkills{
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 1104px){
+    .myResume__info{
+        gap: 2rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .myResume__education > div, .softSkills{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .myResume {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .myResume h3, .myResume > div:first-child > p, .myResume__info, .myResume__profile > p, .university > p, .highSchool > p, .myResume__footer > p, .softSkills div > p{
+        font-size: 1rem;
+    }
+
+    .myResume > div:first-child > h1{
+        font-size: 2.5rem;
+    }
+
+    .highSchool{
+        margin-top: 1rem;
+    }
+
+    .university > p, .highSchool > p{
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .myResume > div:first-child > h1{
+        font-size: 2rem;
+    }
+
+    .myResume > div:first-child > p{
+        margin-top: 1rem;
+        letter-spacing: 3px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+    .myResume > div:first-child > h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 362px){
+    .myResume > div:first-child{
+        align-items: flex-start;
+    }
+
+    .myResume {
+        padding: 1rem;
+    }
+}

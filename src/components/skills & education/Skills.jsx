@@ -1,27 +1,15 @@
 import React from "react";
 import { Title } from "../index";
+import Skill from "./skill/Skill";
 import "./skills.css";
+
 
 const Skills = () => {
   return (
     <div className="skills">
       <div className="skills__content">
         <Title title="My Skills" />
-        <div className="skills__list">
-          <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Redux and Redux Toolkits</li>
-            <li>Material UI</li>
-            <li>Styled Components</li>
-            <li>SASS</li>
-            <li>Bootstraps</li>
-          </ul>
-        </div>
+        <Skill />
       </div>
       <div className="education">
         <Title title='Education' />

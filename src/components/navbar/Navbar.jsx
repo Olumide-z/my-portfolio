@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 let useClickOutside = (handler) => {
@@ -25,7 +26,7 @@ const NavLinks = () => {
     <a href="#works" className='navbar__link'><p>Works</p></a>
     <a href="#about" className='navbar__link'><p>About</p></a>
     <a href="#contact" className='navbar__link'><p>Contact</p></a>
-    <a href="#resume" className='navbar__link'><p>Resume</p></a>
+    <Link to='/resume' target='_blank' className='navbar__link'><p>Resume</p></Link>
   </>
   )
 }

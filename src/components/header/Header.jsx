@@ -28,7 +28,7 @@ const Header = () => {
             <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={40}/></h1>
         </div>
         <h3 className="header__location">based in Lagos, Nigeria.</h3>
-        <button className="header__btn">PROJECTS</button>
+        <a href='#works*'><button className="header__btn">PROJECTS</button></a>
       </div>
     </div>
     <div className="header__icon">
