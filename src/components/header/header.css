@@ -25,7 +25,7 @@
   position: relative;
 }
 
-.header__title-info h1::before {
+.header_title-desk::before {
   content: "<h1>";
   color: var(--color-yellow);
   font-size: 1rem;
@@ -36,7 +36,7 @@
   font-style: italic;
 }
 
-.header__title-info h1::after {
+.header_title-desk::after {
   content: "<h1/>";
   color: var(--color-yellow);
   font-size: 1rem;
@@ -48,9 +48,13 @@
   font-style: italic;
 }
 
-.header__title h1 {
+.header_title-desk {
   font-size: 3.2rem;
   line-height: 5rem;
+}
+
+.header_title-mobile{
+  display: none;
 }
 
 .header__btn{
@@ -116,14 +120,14 @@
 }
 
 @media screen and (max-width: 895px){
-  .header__title h1 {
+  .header_title-desk {
     font-size: 2.7rem;
   }
 }
 
 @media screen and (max-width: 760px){
   
-  .header__title h1 {
+  .header_title-desk {
     font-size: 2.3rem;
     line-height: 4rem;
   }
@@ -131,7 +135,7 @@
 }
 
 @media screen and (max-width: 660px){
-  .header__title h1 {
+  .header_title-desk {
     font-size: 2rem;
     line-height: 3rem;
   }
@@ -140,7 +144,7 @@
     left: -2rem;
   }
 
-  .header__title-info h1::after{
+  .header_title-desk::after{
     margin-top: 0.5rem;
   }
 
@@ -155,26 +159,30 @@
 }
 
 @media screen and (max-width: 592px){
-  .header__title h1{
+  .header_title-desk{
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 487px){
-  .header__title h1{
-    font-size: 1rem;
-    line-height: 2.5rem;
+  .header_title-desk{
+    display: none;
   }
 
+  .header_title-mobile{
+    display: block;
+    line-height: 2.5rem;
+  }
+  
   .header__btn {
     padding: 0.7rem 1rem;
     font-size: 0.7rem;
   }
-}
 
-@media screen and (max-width: 403px){
   .header{
     max-width: 100%;
     margin-left: 2rem;
   }
 }
+
+

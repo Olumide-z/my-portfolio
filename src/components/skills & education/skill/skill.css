@@ -1,50 +1,21 @@
+.skills__icon{
+    background-color: rgba(24, 24, 24, 0.6);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
 
-.skills__list{
-    flex: 4;
-}
-
-.skills__list .skills__icon{
-    font-size: 2rem;
-}
-
-.lists{
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-}
-
-.list2{
-    display: flex; 
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 3rem;
-}
-
-.skills__list li{
-    margin-right: 1rem;
-    font-weight: 400;
-    list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
 }
 
-.bigList{
-    font-size: 1.5rem;
+.skills__icon  p{
+    font-size: 1.6rem;
+    color: white;
 }
 
-.smallList{
-    font-size: 1rem;
-}
-
-@media screen and (max-width: 600px){
-    .bigList{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .list2{
-        gap: 20px;
+@media screen and (max-width: 450px){
+    .skills__icon p{
+        font-size: 1.3rem;
     }
 }

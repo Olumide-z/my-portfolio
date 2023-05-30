@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from '../index';
+import { Skills, Title } from '../index';
 import './about.css';
 
 
@@ -23,6 +23,8 @@ const About = () => {
         </p>
       </div>
     </div>
+
+    <Skills />
     </div>
   );
 };

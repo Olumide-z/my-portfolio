@@ -8,6 +8,7 @@
 .about__content{
     max-width: 70%;
     margin: 0 auto;
+    margin-bottom: 1rem;
 
     display: flex;
     align-items: flex-start;
@@ -15,13 +16,13 @@
 }
 
   .about__me{
-    flex: 4;
+    flex: .6;
 }
 
 .about__me p{
     margin-bottom: 1.5rem;
-    font-size: .9rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 300;
     line-height: 25px;
 }
 
@@ -40,6 +41,6 @@
 
 @media screen and (max-width: 460px){
     .about__me p{
-        font-size: .8rem;
+        font-size: .9rem;
     }
 }

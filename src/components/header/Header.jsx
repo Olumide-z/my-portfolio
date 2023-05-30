@@ -22,10 +22,12 @@ const Header = () => {
       <div className="header__title">
         <div className="header__title-info">
         <h2 className="top-tags">&lt;body&gt;</h2>
-          <h1>
+          <h1 className="header_title-desk">
             <AnimatedLetters letterClass={letterClass} strArray={greetingsArray} idx={12}/>
             <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={19}/> <br/>
-            <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={40}/></h1>
+            <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={40}/>
+          </h1>
+          <h1 className="header_title-mobile">Hi There, I'm Olumide Ilesanmi. A Frontend Developer,</h1>
         </div>
         <h3 className="header__location">based in Lagos, Nigeria.</h3>
         <a href='#works'><button className="header__btn">PROJECTS</button></a>

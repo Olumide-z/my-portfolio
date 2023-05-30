@@ -66,13 +66,19 @@ const Contact = () => {
             <FiMail className="icon"/>
             <h5>Email</h5>
             <p>olumideilesanmi10@gmail.com</p>
-            <a href="mailto:olumideilesanmi10@gmail.com"><p>Write me <BsArrowRightShort/></p></a>
+            <a className="write_me" href="mailto:olumideilesanmi10@gmail.com">
+              <p>Write me</p> 
+              <span><BsArrowRightShort/></span>
+            </a>
           </div>
           <div>
             <FaWhatsapp className="icon"/>
             <h5>WhatsApp</h5>
             <p>+234 81 401 443 14</p>
-            <a href="https://wa.me/2348140144314" target='__blank'><p>Write me <BsArrowRightShort/></p></a>
+            <a className="write_me" href="https://wa.me/2348140144314" target='__blank'>
+              <p>Write me</p> 
+              <span><BsArrowRightShort/></span>
+            </a>
           </div>
          </div>
       </div>  

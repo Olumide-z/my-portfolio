@@ -3,13 +3,19 @@ import { Title } from "../index";
 import Skill from "./skill/Skill";
 import "./skills.css";
 
+import { skills } from "./data";
+
 
 const Skills = () => {
   return (
     <div className="skills">
       <div className="skills__content">
         <Title title="My Skills" />
-        <Skill />
+        <div className="mySkills">
+        {skills.map((skill) => (
+            <Skill key={skill.id} skill={skill}/>
+        ))}
+        </div>
       </div>
       <div className="education">
         <Title title='Education' />

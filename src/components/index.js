@@ -6,4 +6,3 @@ export { default as Title } from "./title/Title";
 export { default as Projects } from "./projects/Projects";
 export { default as Contact } from "./contact/Contact";
 export { default as Footer } from "./footer/Footer";
-export { default as MyResume } from "./myResume/MyResume";

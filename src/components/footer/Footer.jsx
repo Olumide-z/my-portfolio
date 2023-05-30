@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="footer__content">
             <div className="footer__content-1">
                 <h3>Olumide Ilesanmi</h3>
-                <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+                <p>A Frontend focused Web Developer building the Frontend sides of Websites and Web Applications that leads to the success of the overall product</p>
             </div>
             <div className="footer__content-2">
                 <ul>
                     <li><a href='mailto:olumideilesanmi10@gmail.com' target='__blank'>olumideilesanmi10@gmail.com</a><span> · Email</span></li>
-                    <li><a href='#' target='__blank'>+(234) 814 014 4314</a><span> · Mobile</span></li>
-                    <li><a href='https://drive.google.com/file/d/11DhI6QkG0MO6YmUDkSwV91JSx_wBf8lu/view?usp=sharing' target='__blank'>Save a copy of my resume</a></li>
+                    <li><a href="https://wa.me/2348140144314" target='__blank'>+(234) 814 014 4314</a><span> · Mobile</span></li>
+                    <li><a href='https://drive.google.com/file/d/1BreGs6Ewx2IjHyESyWPg2nWbNiReqk0O/view?usp=share_link' target='__blank'>Save a copy of my resume</a></li>
                 </ul>
                 <div className="footer__content-2--icons">
                     <a href='https://twitter.com/Who_is_Emrys' target='__blank'><FaTwitter /></a>
